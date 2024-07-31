@@ -1,0 +1,55 @@
+.md-typeset__table {
+  width: auto;
+}
+
+#customers {
+  display: flex;
+  justify-content: center;
+}
+#customers tbody {
+  width: 100%;
+}
+#customers tbody tr.single {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 0px;
+}
+
+
+#customers tbody tr,
+#customers tbody th {
+  border: 0.5px solid gray;
+  font-size: 22px;
+}
+
+.principal {
+  background-color: green;
+  color: white; 
+}
+.gray {
+  background-color: gray;
+  color: white; 
+}
+
+.text {
+  font-size: 16px;
+}
+
+.idtext {
+  display: flex;
+  justify-content: center;
+}
+.idtext td {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px !important;
+  margin: 5px !important;
+  text-align: center;
+}
+
+#customers tbody tr.duo,
+#customers tbody th.duo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+}
